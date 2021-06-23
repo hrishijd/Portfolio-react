@@ -1,0 +1,103 @@
+.About{
+    min-height: 100vh;
+    padding-top: 5%;
+    padding-right:10%;
+    padding-left:10%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Content{
+    height:50vh ;
+    border-radius: 5%;
+    display: flex;
+    padding: 0%;
+    overflow: hidden;
+    align-items: stretch;
+    margin-bottom: 2%;
+}
+.Studies{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.Content-study{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 30%;
+border-left: 1px solid black;
+}
+
+.Image{  
+    border-radius: 50%;
+    padding: 5%;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+.Image-s{  
+    border-radius: 50%;
+    padding: 5%;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    height: 50%;
+}
+img{
+    width: 70%;
+    height:90%;
+    border-radius: 50%;
+    padding: 5%;
+    object-fit: contain;
+}
+.Image img{
+    width: auto;
+}
+.Intro{
+display: flex;
+height: 100%;
+justify-content: center;
+align-items: center;
+padding-left: 5%;
+padding-right: 5%;
+color: black;
+font-size: 200%;
+}
+.Intro-s{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-size: 100%;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .Content, .Studies{
+        flex-direction: column;
+        height: 100vh;
+        border-radius: 0%;
+    }
+    .Studies{
+        height: auto;
+    }
+    .Content-study
+    {
+        width: 90%;
+        border-left: none;
+        border-bottom: 1px solid black;
+        border-radius: 3%;
+    }
+    .Image{
+        height: 50%;
+        padding:5%;
+    }   
+    .Intro{
+        height:50% ;
+    }
+}
