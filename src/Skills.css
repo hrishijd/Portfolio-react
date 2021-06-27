@@ -1,0 +1,31 @@
+.Skills{
+    width: 80%;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    text-align: center;
+    border:  inset;
+    border-radius: 1%;
+    margin-bottom: 10vh;
+}
+.Skill{
+    border: 2px solid black;
+    border-radius: 5%;
+    width:30%;
+    height: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3%;
+    object-fit: contain;
+}
+.Skill img{
+    height: 30%;
+    width: auto;
+    border-radius: 0%;
+    object-fit: contain;
+}
